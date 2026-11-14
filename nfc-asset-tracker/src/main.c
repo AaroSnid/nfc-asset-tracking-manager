@@ -2,6 +2,8 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
+#include "led.h"
+
 #define LED_GPIO GPIO_NUM_2
 
 void app_main() {
